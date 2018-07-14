@@ -15,5 +15,5 @@ exports.loaded = function(args) {
 };
 
 exports.gitLink = function() {
-    utilityModule.openUrl("https://github.com/PianoManDanDan");
+    utilityModule.openUrl("https://github.com/PianoManDanDan/TKD-Theory-App");
 };
