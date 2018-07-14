@@ -7,7 +7,7 @@
 
     	<Label text="Created by Daniel Martin" horizontalAlignment="center" ></Label>
 
-    	<Button text="&#xf09b; Github Source Code" class="font-awesome" horizontalAlignment="center" ></Button>
+    	<Button text="&#xf09b; Github Source Code" class="font-awesome" horizontalAlignment="center" tap="gitLink" ></Button>
 
 
 	</StackLayout>

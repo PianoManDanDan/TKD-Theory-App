@@ -1,0 +1,41 @@
+<Page loaded="loaded">
+	<Page.actionBar>
+    	<ActionBar title="Tae Kwon-Do Theory"></ActionBar>
+	</Page.actionBar>
+    <StackLayout orientation="vertical">
+    	
+    	<Button text="White Belt" horizontalAlignment="left" tap="nya" class="white" ></Button>
+
+    	<Button text="Yellow Tag" horizontalAlignment="left" tap="nya" class="white" ></Button>
+
+    	<Button text="Yellow Belt" horizontalAlignment="left" tap="nya" class="yellow" ></Button>
+
+    	<Button text="Green Tag" horizontalAlignment="left" tap="nya" class="yellow" ></Button>
+
+    	<Button text="Green Belt" horizontalAlignment="left" tap="nya" class="green" ></Button>
+
+    	<Button text="Blue Tag" horizontalAlignment="left" tap="nya" class="green" ></Button>
+
+    	<Button text="Blue Belt" horizontalAlignment="left" tap="nya" class="blue" ></Button>
+
+    	<Button text="Red Tag" horizontalAlignment="left" tap="nya" class="blue" ></Button>
+
+    	<Button text="Red Belt" horizontalAlignment="left" tap="nya" class="red" ></Button>
+
+    	<Button text="Black Tag" horizontalAlignment="left" tap="nya" class="red" ></Button>
+
+    	<Button text="1st Degree" horizontalAlignment="left" tap="nya" class="black" ></Button>
+
+    	<Button text="2nd Degree" horizontalAlignment="left" tap="nya" class="black" ></Button>
+
+    	<Button text="3rd Degree" horizontalAlignment="left" tap="nya" class="black" ></Button>
+
+    	<Button text="4th Degree" horizontalAlignment="left" tap="nya" class="black" ></Button>
+
+    	<Button text="5th Degree" horizontalAlignment="left" tap="nya" class="black" ></Button>
+
+    	<Button text="6th Degree" horizontalAlignment="left" tap="nya" class="black" ></Button>
+
+
+	</StackLayout>
+</Page>
