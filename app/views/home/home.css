@@ -1,3 +1,8 @@
+ActionBar {
+	background-color: #273746;
+	color: #FFFFFF;
+}
+
 .white {
 	background-color: #FFFFFF;
 	color: #000000;
@@ -26,4 +31,9 @@
 .black {
 	background-color: #000000;
 	color: #FFD700;
+}
+
+.general {
+	background-color: #8E44AD;
+	color: #EAEDED;
 }

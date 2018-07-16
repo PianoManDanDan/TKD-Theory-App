@@ -1,8 +1,27 @@
 <Page loaded="loaded">
 	<Page.actionBar>
-    	<ActionBar title="Tae Kwon-Do Theory"></ActionBar>
+    	<ActionBar title="Tae Kwon-Do Theory">
+    		<ActionBar.ActionItems>
+    			<android>
+	    			<ActionItem tap="onAbout" 
+	    				text="About" android.position="popup" ></ActionItem>
+	    		</android>
+	    		<ios>
+	    			<ActionItem>
+	    				<ActionItem.actionView>
+	    					<Button text="About" tap="onAbout" position="right" ></Button>
+	    				</ActionItem.actionView>
+	    			</ActionItem>
+	    		</ios>
+	    	</ActionBar.ActionItems>
+    	</ActionBar>
 	</Page.actionBar>
-    <StackLayout orientation="vertical">
+
+    <StackLayout orientation="vertical"> 
+
+    	<!-- https://docs.nativescript.org/ui/ns-ui-widgets/styling#gradients for gradient buttons??? -->
+
+    	<Button text="General Information" horizontalAlignment="left" tap="nya" class="general" ></Button>
     	
     	<Button text="White Belt" horizontalAlignment="left" tap="nya" class="white" ></Button>
 
