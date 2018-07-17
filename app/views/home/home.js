@@ -19,7 +19,7 @@ exports.loaded = function(args) {
 exports.nya = function() {
 	dialogsModule
         .alert({
-            message: "Unfortunately the information for this belt is not yet available.\nPlease check back soon.",
+            message: "Unfortunately this information is not yet available.\nPlease check back soon.",
             okButtonText: "OK"
         });
 

@@ -3,6 +3,11 @@ ActionBar {
 	color: #FFFFFF;
 }
 
+Button {
+	width: 43%;
+	padding: 20;
+}
+
 .white {
 	background-color: #FFFFFF;
 	color: #000000;

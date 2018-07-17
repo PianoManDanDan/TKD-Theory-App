@@ -3,12 +3,18 @@
     	<ActionBar title="About"></ActionBar>
 	</Page.actionBar>
     <StackLayout orientation="vertical">
-    	<Image src="res://logo" stretch="none" horizontalAlignment="center" ></Image>
+    	<!--Image src="res://logo" stretch="none" horizontalAlignment="center" ></Image-->
+    	<Label text="Thank you for using this app!"
+    		color="#FFFFFF" padding="20" paddingBottom="7" textWrap="true" ></Label>
+    	<Label text="This app was created using the Nativescript framework."
+    		color="#FFFFFF" padding="20" paddingTop="8" paddingBottom="7" textWrap="true" ></Label>
+    	<Label text="The source code is available at the Github link below."
+    		color="#FFFFFF" padding="20" paddingTop="8" textWrap="true" ></Label>
 
-    	<Label text="Created by Daniel Martin" horizontalAlignment="center" ></Label>
+    	<Button text="&#xf09b; Github Source Code" class="font-awesome-brands" horizontalAlignment="left"
+    		color="#FFFFFF" backgroundColor="#24292D" margin="20" marginTop="0" padding="15" tap="gitLink" ></Button>
 
-    	<Button text="&#xf09b; Github Source Code" class="font-awesome" horizontalAlignment="center" tap="gitLink" ></Button>
-
-
+    	<Label text="&#xf1f9; Daniel Martin 2018" class="font-awesome-regular" horizontalAlignment="left"
+    		color="#FFFFFF" padding="20" paddingTop="8" textWrap="true" ></Label>
 	</StackLayout>
 </Page>
