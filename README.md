@@ -7,7 +7,7 @@ So far, the main home screen of the app and the About page have been completed, 
 To install the app:
 1. Install Nativescript using this [link](https://www.npmjs.com/package/nativescript)
 2. Navigate to the cloned repository location.
-3. Type `tns run <platform>` into the command line, with "<platform>" being replaced with either "android" or "ios". If a mobile device is plugged into your computer, the app will automatically be downloaded onto your mobile device. **If trying to install the app onto an iPhone, your mobile device must be plugged into a computer running MacOS.**
+3. Type `tns run <platform>` into the command line, with "`<platform>`" being replaced with either "android" or "ios". If a mobile device is plugged into your computer, the app will automatically be downloaded onto your mobile device. **If trying to install the app onto an iPhone, your mobile device must be plugged into a computer running MacOS.**
 
 
 
