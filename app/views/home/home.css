@@ -4,12 +4,109 @@ ActionBar {
 }
 
 Button {
-	width: 43%;
+	width: 43%; /*FOR SIDE BY SIDE*/
+	/*width:90%; /*FOR STACKED*/
 	padding: 20;
+	/*margin-top: 10; /*FOR STACKED*/
 }
 
+/*FOR SIDE BY SIDE*/
+.white {
+	background: #FFFFFF;
+	color: #000000;
+}
+
+.yellow-stripe {
+	background: linear-gradient(to right, #FFFFFF 0%,#FFFFFF 79%,#FFD700 80%,#FFD700 89%,#FFFFFF 90%);
+	color: #000000;
+}
+
+.yellow {
+	background: #FFD700;
+	color: #000000;
+}
+
+.green-stripe {
+	background: linear-gradient(to right, #FFD700 0%,#FFD700 79%,#228B22 80%,#228B22 89%,#FFD700 90%);
+	color: #000000;
+}
+
+.green {
+	background: #228B22;
+	color: #000000;
+}
+
+.blue-stripe {
+	background: linear-gradient(to right, #228B22 0%,#228B22 79%,#0000CD 80%,#0000CD 89%,#228B22 90%);
+	color: #000000;
+}
+
+.blue {
+	background: #0000CD;
+	color: #FFFFFF;
+}
+
+.red-stripe {
+	background: linear-gradient(to right, #0000CD 0%,#0000CD 79%,#F90000 80%,#F90000 89%,#0000CD 90%);
+	color: #FFFFFF;
+}
+
+.red {
+	background: #F90000;
+	color: #000000;
+}
+
+.black-stripe {
+	background: linear-gradient(to right, #FF0000 0%,#FF0000 79%,#000000 80%,#000000 89%,#FF0000 90%);
+	color: #000000;
+}
+
+.black-1st {
+	background: linear-gradient(to right, #000000 0%,#000000 79%,#FFD700 80%,#FFD700 89%,#000000 90%);
+	color: #FFD700;
+}
+
+.black-2nd {
+	background: linear-gradient(to right, #000000 0%,#000000 69%,#FFD700 70%,#FFD700 78%,#000000 79%,#000000 84%,#FFD700 85%,#FFD700 93%,#000000 94%);
+	color: #FFD700;
+}
+
+.black-3rd {
+	background: linear-gradient(to right, #000000 0%,#000000 69%,#FFD700 70%,#FFD700 75%,#000000 76%,#000000 79%,#FFD700 80%,#FFD700 85%,#000000 86%,#000000 89%,#FFD700 90%,#FFD700 95%,#000000 96%);
+	color: #FFD700;
+}
+
+.black-4th {
+	background: linear-gradient(to right, #000000 0%,#000000 79%,#FFD700 80%,#FFD700 89%,#000000 90%);
+	color: #FFD700;
+}
+
+.black-5th {
+	background: linear-gradient(to right, #000000 0%,#000000 79%,#FFD700 80%,#FFD700 89%,#000000 90%);
+	color: #FFD700;
+}
+
+.black-6th {
+	background: linear-gradient(to right, #000000 0%,#000000 79%,#FFD700 80%,#FFD700 89%,#000000 90%);
+	color: #FFD700;
+}
+
+
+.general {
+	background: #8E44AD;
+	/*background: linear-gradient(to right, #8E44AD 0%,#8E44AD 100%);*/
+	color: #EAEDED;
+}
+
+/*FOR STACKED*/
+/*
 .white {
 	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.yellow-stripe {
+	background: linear-gradient(to right, #FFFFFF 0%,#FFFFFF 81%,#FFD700 81%,#FFD700 88%,#FFFFFF 88%);
 	color: #000000;
 }
 
@@ -18,8 +115,19 @@ Button {
 	color: #000000;
 }
 
+.green-stripe {
+	background: linear-gradient(to right, #FFD700 0%,#FFD700 81%,#228B22 81%,#228B22 88%,#FFD700 88%);
+	color: #000000;
+}
+
 .green {
 	background-color: #228B22;
+	color: #000000;
+}
+
+.blue-stripe {
+	background-color: #228B22;
+	background: linear-gradient(to right, #228B22 0%,#228B22 81%,#0000CD 81%,#0000CD 88%,#228B22 88%);
 	color: #000000;
 }
 
@@ -28,17 +136,49 @@ Button {
 	color: #FFFFFF;
 }
 
+.red-stripe {
+	background-color: #0000CD;
+	background: linear-gradient(to right, #0000CD 0%,#0000CD 81%,#F90000 81%,#F90000 88%,#0000CD 88%);
+	color: #FFFFFF;
+}
+
 .red {
 	background-color: #F90000;
 	color: #000000;
 }
 
-.black {
-	background-color: #000000;
+.black-stripe {
+	background: linear-gradient(to right, #FF0000 0%,#FF0000 81%,#000000 81%,#000000 88%,#FF0000 88%);
+	color: #000000;
+}
+
+.black-1st {
+	background: linear-gradient(to right, #000000 0%,#000000 81%,#FFD700 81%,#FFD700 88%,#000000 88%);
 	color: #FFD700;
 }
 
-.general {
-	background-color: #8E44AD;
-	color: #EAEDED;
+.black-2nd {
+	background: linear-gradient(to right, #000000 0%,#000000 78%,#FFD700 78%,#FFD700 83%,#000000 83%,#000000 86%,#FFD700 86%,#FFD700 91%,#000000 91%);
+	color: #FFD700;
 }
+
+.black-3rd {
+	background: linear-gradient(to right, #000000 0%,#000000 74%,#FFD700 74%,#FFD700 79%,#000000 79%,#000000 82%,#FFD700 82%,#FFD700 87%,#000000 87%,#000000 90%,#FFD700 90%,#FFD700 95%,#000000 95%);
+	color: #FFD700;
+}
+
+.black-4th {
+	background: linear-gradient(to right, #000000 0%,#000000 71%,#FFD700 71%,#FFD700 76%,#000000 76%,#000000 78%,#FFD700 78%,#FFD700 83%,#000000 83%,#000000 85%,#FFD700 85%,#FFD700 90%,#000000 90%,#000000 92%,#FFD700 92%,#FFD700 97%,#000000 97%);
+	color: #FFD700;
+}
+
+.black-5th {
+	background: linear-gradient(to right, #000000 0%,#000000 79%,#FFD700 80%,#FFD700 89%,#000000 90%);
+	color: #FFD700;
+}
+
+.black-6th {
+	background: linear-gradient(to right, #000000 0%,#000000 79%,#FFD700 80%,#FFD700 89%,#000000 90%);
+	color: #FFD700;
+}
+*/
